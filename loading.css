@@ -5,7 +5,8 @@
 }
 
 :root{
-	--rotate-time: 1s;
+	--rotate-time: 3s;
+	--bg-color: #111;
 }
 
 body{
@@ -14,7 +15,7 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	min-width: 100vw;
-	background: #111;
+	background: var(--bg-color);
 }
 
 .container{
