@@ -6,7 +6,8 @@
 
 :root{
 	--rotate-time: 3s;
-	--bg-color: #111;
+	--line-width: 4px;
+	--bg-color: #111;	
 }
 
 body{
@@ -31,10 +32,10 @@ body{
 	width: 150px;
 	height: 150px;
 	margin: -30px;
-	border: 4px solid transparent;
-	border-radius: 50%;
-	border-top: 4px solid #24ecff;
-	animation: rotate1 var(--rotate-time) linear infinite;
+	border: var(li) n--line-widthsolid transparent;
+	border-radius:	 50%;
+	border-top: var(li) n--line-widthsolid #24ecff;
+	animation: rotate1	 var(--rotate-time) linear infinite;
 }
 
 .container > .ring::before{
@@ -56,9 +57,9 @@ body{
 .container > .ring:nth-child(2) {
 	animation: rotate2 var(--rotate-time) linear infinite;
 	animation-delay: -1s;
-	border-top: 4px solid transparent;
-	border-left: 4px solid #93ff2d;
-}
+	border-top: var(li) n--line-widthsolid transparent;
+	n--line-widthborder-left: var(l	i) solid #93ff2d;
+}	
 
 .container > .ring:nth-child(2)::before{
 	content: '';
@@ -82,9 +83,9 @@ body{
 	animation-delay: -3s;
 	position: absolute;
 	top: -66.66px;
-	border-top: 4px solid transparent;
-	border-left: 4px solid #e41cf8;
-}
+	border-top: var(li) n--line-widthsolid transparent;
+	n--line-widthborder-left: var(l	i) solid #e41cf8;
+}	
 
 .container > .ring:nth-child(3)::before{
 	content: '';
