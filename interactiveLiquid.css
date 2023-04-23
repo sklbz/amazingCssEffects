@@ -1,0 +1,20 @@
+*{
+	
+}
+
+.bubble-wrapper{
+	background-color: #111;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	overflow: hidden;
+	pointer-events: none;
+}
+
+.bubble{
+	height: max(300px, 30vw);
+	width: max(300px, 30vw);
+	background-color: rgb(33, 150, 243);
+	border-radius: 50%;
+}
